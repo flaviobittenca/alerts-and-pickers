@@ -36,22 +36,15 @@
 		AEC9FD0D2074B286003E0281 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0378201A82FC00D282E2 /* ContactCell.swift */; };
 		AEC9FD0E2074B286003E0281 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A32008B46800E06F8F /* DatePickerViewController.swift */; };
 		AEC9FD0F2074B286003E0281 /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C9F201BD4B000CCE04D /* ItemWithImage.swift */; };
-		AEC9FD102074B286003E0281 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A42008B46800E06F8F /* ImagePickerViewController.swift */; };
 		AEC9FD112074B286003E0281 /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A62008B46800E06F8F /* LocalePickerViewController.swift */; };
 		AEC9FD122074B286003E0281 /* LocaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C84201BC26900CCE04D /* LocaleStore.swift */; };
 		AEC9FD132074B286003E0281 /* LocaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C82201BC16500CCE04D /* LocaleInfo.swift */; };
 		AEC9FD142074B286003E0281 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C88201BCA6700CCE04D /* CurrencyCell.swift */; };
 		AEC9FD152074B286003E0281 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C8B201BCAFB00CCE04D /* CountryCell.swift */; };
 		AEC9FD162074B286003E0281 /* PhoneCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C8D201BCB2500CCE04D /* PhoneCodeCell.swift */; };
-		AEC9FD172074B286003E0281 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0367201A119C00D282E2 /* LocationPickerViewController.swift */; };
-		AEC9FD182074B286003E0281 /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0369201A119C00D282E2 /* LocationSearchResultsViewController.swift */; };
-		AEC9FD192074B286003E0281 /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0366201A119C00D282E2 /* SearchHistoryManager.swift */; };
-		AEC9FD1A2074B286003E0281 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0368201A119C00D282E2 /* Location.swift */; };
 		AEC9FD1B2074B286003E0281 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B036E201A652900D282E2 /* Address.swift */; };
 		AEC9FD1C2074B286003E0281 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E9520162BB5001EA8C6 /* Assets.swift */; };
-		AEC9FD1D2074B286003E0281 /* PhotoLibraryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B037A201A85FE00D282E2 /* PhotoLibraryPickerViewController.swift */; };
 		AEC9FD1E2074B286003E0281 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A52008B46800E06F8F /* PickerViewViewController.swift */; };
-		AEC9FD1F2074B286003E0281 /* TelegramPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE67720125F0A00FB3E72 /* TelegramPickerViewController.swift */; };
 		AEC9FD202074B286003E0281 /* PhotoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0376201A820200D282E2 /* PhotoLayout.swift */; };
 		AEC9FD212074B286003E0281 /* ItemWithPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0374201A817200D282E2 /* ItemWithPhoto.swift */; };
 		AEC9FD222074B286003E0281 /* LikeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25CAA42018677A00D1CB87 /* LikeButtonCell.swift */; };
@@ -733,9 +726,6 @@
 				AEC9FD152074B286003E0281 /* CountryCell.swift in Sources */,
 				AEC9FD0D2074B286003E0281 /* ContactCell.swift in Sources */,
 				AEC9FD0E2074B286003E0281 /* DatePickerViewController.swift in Sources */,
-				AEC9FD1F2074B286003E0281 /* TelegramPickerViewController.swift in Sources */,
-				AEC9FD172074B286003E0281 /* LocationPickerViewController.swift in Sources */,
-				AEC9FD192074B286003E0281 /* SearchHistoryManager.swift in Sources */,
 				AEC9FD022074B254003E0281 /* UITextField+Extensions.swift in Sources */,
 				AEC9FD272074B286003E0281 /* Label.swift in Sources */,
 				AEC9FD032074B254003E0281 /* UITextView+Extensions.swift in Sources */,
@@ -749,9 +739,7 @@
 				AEC9FCFA2074B254003E0281 /* Date+Extension.swift in Sources */,
 				AEC9FD252074B286003E0281 /* GradientSlider.swift in Sources */,
 				AEC9FCFF2074B254003E0281 /* UIColor+Extensions.swift in Sources */,
-				AEC9FD102074B286003E0281 /* ImagePickerViewController.swift in Sources */,
 				AEC9FD232074B286003E0281 /* TwoTextFieldsViewController.swift in Sources */,
-				AEC9FD1A2074B286003E0281 /* Location.swift in Sources */,
 				AEC9FD132074B286003E0281 /* LocaleInfo.swift in Sources */,
 				AEC9FD0B2074B286003E0281 /* Contacts.swift in Sources */,
 				AEC9FD222074B286003E0281 /* LikeButtonCell.swift in Sources */,
@@ -768,7 +756,6 @@
 				AEC9FD062074B254003E0281 /* UISearchBar+Extensions.swift in Sources */,
 				AEC9FD092074B25D003E0281 /* ColorPickerViewController.swift in Sources */,
 				AEC9FCF82074B254003E0281 /* Array+Extensions.swift in Sources */,
-				AEC9FD182074B286003E0281 /* LocationSearchResultsViewController.swift in Sources */,
 				AEC9FCFD2074B254003E0281 /* String+Extensions.swift in Sources */,
 				AEC9FCF92074B254003E0281 /* Common+Extensions.swift in Sources */,
 				AEC9FD012074B254003E0281 /* UISegmentedControl+Extensions.swift in Sources */,
@@ -778,7 +765,6 @@
 				AEC9FD1E2074B286003E0281 /* PickerViewViewController.swift in Sources */,
 				AEC9FD282074B286003E0281 /* SegmentedControl.swift in Sources */,
 				AEC9FD122074B286003E0281 /* LocaleStore.swift in Sources */,
-				AEC9FD1D2074B286003E0281 /* PhotoLibraryPickerViewController.swift in Sources */,
 				AEC9FD052074B254003E0281 /* UIImageView+Extensions.swift in Sources */,
 				AEC9FCFB2074B254003E0281 /* Locale+Extensions.swift in Sources */,
 			);
