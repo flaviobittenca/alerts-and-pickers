@@ -7,6 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEC9FCEE2074B22E003E0281 /* AlertsAndPickers.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC9FCEC2074B22E003E0281 /* AlertsAndPickers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC9FCF12074B22E003E0281 /* AlertsAndPickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9FCEA2074B22E003E0281 /* AlertsAndPickers.framework */; };
+		AEC9FCF22074B22E003E0281 /* AlertsAndPickers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9FCEA2074B22E003E0281 /* AlertsAndPickers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEC9FCF62074B24C003E0281 /* AttributedTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5CA7201F74B700CCE04D /* AttributedTextBlock.swift */; };
+		AEC9FCF72074B24F003E0281 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFAA69200D470800961895 /* TextViewController.swift */; };
+		AEC9FCF82074B254003E0281 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2942008B46600E06F8F /* Array+Extensions.swift */; };
+		AEC9FCF92074B254003E0281 /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29E2008B46600E06F8F /* Common+Extensions.swift */; };
+		AEC9FCFA2074B254003E0281 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2972008B46600E06F8F /* Date+Extension.swift */; };
+		AEC9FCFB2074B254003E0281 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29F2008B46600E06F8F /* Locale+Extensions.swift */; };
+		AEC9FCFC2074B254003E0281 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29D2008B46600E06F8F /* Optional+Extensions.swift */; };
+		AEC9FCFD2074B254003E0281 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2982008B46600E06F8F /* String+Extensions.swift */; };
+		AEC9FCFE2074B254003E0281 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29C2008B46600E06F8F /* UIAlertController+Extensions.swift */; };
+		AEC9FCFF2074B254003E0281 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29A2008B46600E06F8F /* UIColor+Extensions.swift */; };
+		AEC9FD002074B254003E0281 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29B2008B46600E06F8F /* UIImage+Extensions.swift */; };
+		AEC9FD012074B254003E0281 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2952008B46600E06F8F /* UISegmentedControl+Extensions.swift */; };
+		AEC9FD022074B254003E0281 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A02008B46600E06F8F /* UITextField+Extensions.swift */; };
+		AEC9FD032074B254003E0281 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2992008B46600E06F8F /* UITextView+Extensions.swift */; };
+		AEC9FD042074B254003E0281 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2962008B46600E06F8F /* UIView+Extensions.swift */; };
+		AEC9FD052074B254003E0281 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE6DA2014AC4C00FB3E72 /* UIImageView+Extensions.swift */; };
+		AEC9FD062074B254003E0281 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E932015E490001EA8C6 /* UISearchBar+Extensions.swift */; };
+		AEC9FD072074B254003E0281 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5CA3201DEE0B00CCE04D /* UIApplication+Extensions.swift */; };
+		AEC9FD082074B254003E0281 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5CA5201DEE9C00CCE04D /* UIViewController+Extensions.swift */; };
+		AEC9FD092074B25D003E0281 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFAA67200C963F00961895 /* ColorPickerViewController.swift */; };
+		AEC9FD0A2074B260003E0281 /* ContactsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE6D820149F9B00FB3E72 /* ContactsPickerViewController.swift */; };
+		AEC9FD0B2074B286003E0281 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E912015D769001EA8C6 /* Contacts.swift */; };
+		AEC9FD0C2074B286003E0281 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E9720166D51001EA8C6 /* Contact.swift */; };
+		AEC9FD0D2074B286003E0281 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0378201A82FC00D282E2 /* ContactCell.swift */; };
+		AEC9FD0E2074B286003E0281 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A32008B46800E06F8F /* DatePickerViewController.swift */; };
+		AEC9FD0F2074B286003E0281 /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C9F201BD4B000CCE04D /* ItemWithImage.swift */; };
+		AEC9FD102074B286003E0281 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A42008B46800E06F8F /* ImagePickerViewController.swift */; };
+		AEC9FD112074B286003E0281 /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A62008B46800E06F8F /* LocalePickerViewController.swift */; };
+		AEC9FD122074B286003E0281 /* LocaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C84201BC26900CCE04D /* LocaleStore.swift */; };
+		AEC9FD132074B286003E0281 /* LocaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C82201BC16500CCE04D /* LocaleInfo.swift */; };
+		AEC9FD142074B286003E0281 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C88201BCA6700CCE04D /* CurrencyCell.swift */; };
+		AEC9FD152074B286003E0281 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C8B201BCAFB00CCE04D /* CountryCell.swift */; };
+		AEC9FD162074B286003E0281 /* PhoneCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C8D201BCB2500CCE04D /* PhoneCodeCell.swift */; };
+		AEC9FD172074B286003E0281 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0367201A119C00D282E2 /* LocationPickerViewController.swift */; };
+		AEC9FD182074B286003E0281 /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0369201A119C00D282E2 /* LocationSearchResultsViewController.swift */; };
+		AEC9FD192074B286003E0281 /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0366201A119C00D282E2 /* SearchHistoryManager.swift */; };
+		AEC9FD1A2074B286003E0281 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0368201A119C00D282E2 /* Location.swift */; };
+		AEC9FD1B2074B286003E0281 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B036E201A652900D282E2 /* Address.swift */; };
+		AEC9FD1C2074B286003E0281 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E9520162BB5001EA8C6 /* Assets.swift */; };
+		AEC9FD1D2074B286003E0281 /* PhotoLibraryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B037A201A85FE00D282E2 /* PhotoLibraryPickerViewController.swift */; };
+		AEC9FD1E2074B286003E0281 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A52008B46800E06F8F /* PickerViewViewController.swift */; };
+		AEC9FD1F2074B286003E0281 /* TelegramPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CE67720125F0A00FB3E72 /* TelegramPickerViewController.swift */; };
+		AEC9FD202074B286003E0281 /* PhotoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0376201A820200D282E2 /* PhotoLayout.swift */; };
+		AEC9FD212074B286003E0281 /* ItemWithPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0374201A817200D282E2 /* ItemWithPhoto.swift */; };
+		AEC9FD222074B286003E0281 /* LikeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25CAA42018677A00D1CB87 /* LikeButtonCell.swift */; };
+		AEC9FD232074B286003E0281 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A72008B46800E06F8F /* TwoTextFieldsViewController.swift */; };
+		AEC9FD242074B286003E0281 /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A82008B46800E06F8F /* OneTextFieldViewController.swift */; };
+		AEC9FD252074B286003E0281 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFAA63200C1D4600961895 /* GradientSlider.swift */; };
+		AEC9FD262074B286003E0281 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E98C32017348800008C0C /* Button.swift */; };
+		AEC9FD272074B286003E0281 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2902008B46500E06F8F /* Label.swift */; };
+		AEC9FD282074B286003E0281 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2912008B46500E06F8F /* SegmentedControl.swift */; };
+		AEC9FD292074B286003E0281 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2922008B46500E06F8F /* TextField.swift */; };
 		FA005E922015D769001EA8C6 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E912015D769001EA8C6 /* Contacts.swift */; };
 		FA005E942015E490001EA8C6 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E932015E490001EA8C6 /* UISearchBar+Extensions.swift */; };
 		FA005E9620162BB5001EA8C6 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E9520162BB5001EA8C6 /* Assets.swift */; };
@@ -72,7 +127,46 @@
 		FABFAA6A200D470800961895 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFAA69200D470800961895 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AEC9FCEF2074B22E003E0281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3BB26B2008B41B00E06F8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC9FCE92074B22E003E0281;
+			remoteInfo = AlertsAndPickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEC9FCD32074B1F6003E0281 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEC9FCF22074B22E003E0281 /* AlertsAndPickers.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9FCE42074B210003E0281 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AEC9FCC92074B1F6003E0281 /* Alert_PickersFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alert_PickersFramework.h; sourceTree = "<group>"; };
+		AEC9FCCA2074B1F6003E0281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC9FCEA2074B22E003E0281 /* AlertsAndPickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlertsAndPickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC9FCEC2074B22E003E0281 /* AlertsAndPickers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertsAndPickers.h; sourceTree = "<group>"; };
+		AEC9FCED2074B22E003E0281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA005E912015D769001EA8C6 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		FA005E932015E490001EA8C6 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
 		FA005E9520162BB5001EA8C6 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -141,16 +235,42 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA3BB2702008B41B00E06F8F /* Frameworks */ = {
+		AEC9FCE62074B22E003E0281 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA3BB2702008B41B00E06F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9FCF12074B22E003E0281 /* AlertsAndPickers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEC9FCC82074B1F6003E0281 /* Alert&PickersFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9FCC92074B1F6003E0281 /* Alert_PickersFramework.h */,
+				AEC9FCCA2074B1F6003E0281 /* Info.plist */,
+			);
+			path = "Alert&PickersFramework";
+			sourceTree = "<group>";
+		};
+		AEC9FCEB2074B22E003E0281 /* AlertsAndPickers */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9FCEC2074B22E003E0281 /* AlertsAndPickers.h */,
+				AEC9FCED2074B22E003E0281 /* Info.plist */,
+			);
+			path = AlertsAndPickers;
+			sourceTree = "<group>";
+		};
 		FA3BB26A2008B41B00E06F8F = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +279,8 @@
 				FA3BB2A92008B46800E06F8F /* Example */,
 				FA3BB2CB2008B87A00E06F8F /* Source */,
 				FA3BB2CC2008B98F00E06F8F /* Assets */,
+				AEC9FCC82074B1F6003E0281 /* Alert&PickersFramework */,
+				AEC9FCEB2074B22E003E0281 /* AlertsAndPickers */,
 				FA3BB2742008B41B00E06F8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				FA3BB2732008B41B00E06F8F /* Alerts&Pickers.app */,
+				AEC9FCEA2074B22E003E0281 /* AlertsAndPickers.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -488,7 +611,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AEC9FCE72074B22E003E0281 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9FCEE2074B22E003E0281 /* AlertsAndPickers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		AEC9FCE92074B22E003E0281 /* AlertsAndPickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC9FCF32074B22E003E0281 /* Build configuration list for PBXNativeTarget "AlertsAndPickers" */;
+			buildPhases = (
+				AEC9FCE52074B22E003E0281 /* Sources */,
+				AEC9FCE62074B22E003E0281 /* Frameworks */,
+				AEC9FCE72074B22E003E0281 /* Headers */,
+				AEC9FCE82074B22E003E0281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertsAndPickers;
+			productName = AlertsAndPickers;
+			productReference = AEC9FCEA2074B22E003E0281 /* AlertsAndPickers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		FA3BB2722008B41B00E06F8F /* Alerts&Pickers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3BB2852008B41B00E06F8F /* Build configuration list for PBXNativeTarget "Alerts&Pickers" */;
@@ -496,10 +648,13 @@
 				FA3BB26F2008B41B00E06F8F /* Sources */,
 				FA3BB2702008B41B00E06F8F /* Frameworks */,
 				FA3BB2712008B41B00E06F8F /* Resources */,
+				AEC9FCD32074B1F6003E0281 /* Embed Frameworks */,
+				AEC9FCE42074B210003E0281 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AEC9FCF02074B22E003E0281 /* PBXTargetDependency */,
 			);
 			name = "Alerts&Pickers";
 			productName = "Alerts&Pickers";
@@ -512,10 +667,14 @@
 		FA3BB26B2008B41B00E06F8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Supreme Apps";
 				TargetAttributes = {
+					AEC9FCE92074B22E003E0281 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					FA3BB2722008B41B00E06F8F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -536,11 +695,19 @@
 			projectRoot = "";
 			targets = (
 				FA3BB2722008B41B00E06F8F /* Alerts&Pickers */,
+				AEC9FCE92074B22E003E0281 /* AlertsAndPickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AEC9FCE82074B22E003E0281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA3BB2712008B41B00E06F8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +725,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AEC9FCE52074B22E003E0281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9FD262074B286003E0281 /* Button.swift in Sources */,
+				AEC9FD152074B286003E0281 /* CountryCell.swift in Sources */,
+				AEC9FD0D2074B286003E0281 /* ContactCell.swift in Sources */,
+				AEC9FD0E2074B286003E0281 /* DatePickerViewController.swift in Sources */,
+				AEC9FD1F2074B286003E0281 /* TelegramPickerViewController.swift in Sources */,
+				AEC9FD172074B286003E0281 /* LocationPickerViewController.swift in Sources */,
+				AEC9FD192074B286003E0281 /* SearchHistoryManager.swift in Sources */,
+				AEC9FD022074B254003E0281 /* UITextField+Extensions.swift in Sources */,
+				AEC9FD272074B286003E0281 /* Label.swift in Sources */,
+				AEC9FD032074B254003E0281 /* UITextView+Extensions.swift in Sources */,
+				AEC9FD112074B286003E0281 /* LocalePickerViewController.swift in Sources */,
+				AEC9FD1C2074B286003E0281 /* Assets.swift in Sources */,
+				AEC9FD0A2074B260003E0281 /* ContactsPickerViewController.swift in Sources */,
+				AEC9FD072074B254003E0281 /* UIApplication+Extensions.swift in Sources */,
+				AEC9FD0C2074B286003E0281 /* Contact.swift in Sources */,
+				AEC9FD242074B286003E0281 /* OneTextFieldViewController.swift in Sources */,
+				AEC9FD162074B286003E0281 /* PhoneCodeCell.swift in Sources */,
+				AEC9FCFA2074B254003E0281 /* Date+Extension.swift in Sources */,
+				AEC9FD252074B286003E0281 /* GradientSlider.swift in Sources */,
+				AEC9FCFF2074B254003E0281 /* UIColor+Extensions.swift in Sources */,
+				AEC9FD102074B286003E0281 /* ImagePickerViewController.swift in Sources */,
+				AEC9FD232074B286003E0281 /* TwoTextFieldsViewController.swift in Sources */,
+				AEC9FD1A2074B286003E0281 /* Location.swift in Sources */,
+				AEC9FD132074B286003E0281 /* LocaleInfo.swift in Sources */,
+				AEC9FD0B2074B286003E0281 /* Contacts.swift in Sources */,
+				AEC9FD222074B286003E0281 /* LikeButtonCell.swift in Sources */,
+				AEC9FD0F2074B286003E0281 /* ItemWithImage.swift in Sources */,
+				AEC9FD202074B286003E0281 /* PhotoLayout.swift in Sources */,
+				AEC9FCF62074B24C003E0281 /* AttributedTextBlock.swift in Sources */,
+				AEC9FD142074B286003E0281 /* CurrencyCell.swift in Sources */,
+				AEC9FD082074B254003E0281 /* UIViewController+Extensions.swift in Sources */,
+				AEC9FD292074B286003E0281 /* TextField.swift in Sources */,
+				AEC9FCFC2074B254003E0281 /* Optional+Extensions.swift in Sources */,
+				AEC9FD002074B254003E0281 /* UIImage+Extensions.swift in Sources */,
+				AEC9FD212074B286003E0281 /* ItemWithPhoto.swift in Sources */,
+				AEC9FD1B2074B286003E0281 /* Address.swift in Sources */,
+				AEC9FD062074B254003E0281 /* UISearchBar+Extensions.swift in Sources */,
+				AEC9FD092074B25D003E0281 /* ColorPickerViewController.swift in Sources */,
+				AEC9FCF82074B254003E0281 /* Array+Extensions.swift in Sources */,
+				AEC9FD182074B286003E0281 /* LocationSearchResultsViewController.swift in Sources */,
+				AEC9FCFD2074B254003E0281 /* String+Extensions.swift in Sources */,
+				AEC9FCF92074B254003E0281 /* Common+Extensions.swift in Sources */,
+				AEC9FD012074B254003E0281 /* UISegmentedControl+Extensions.swift in Sources */,
+				AEC9FCF72074B24F003E0281 /* TextViewController.swift in Sources */,
+				AEC9FD042074B254003E0281 /* UIView+Extensions.swift in Sources */,
+				AEC9FCFE2074B254003E0281 /* UIAlertController+Extensions.swift in Sources */,
+				AEC9FD1E2074B286003E0281 /* PickerViewViewController.swift in Sources */,
+				AEC9FD282074B286003E0281 /* SegmentedControl.swift in Sources */,
+				AEC9FD122074B286003E0281 /* LocaleStore.swift in Sources */,
+				AEC9FD1D2074B286003E0281 /* PhotoLibraryPickerViewController.swift in Sources */,
+				AEC9FD052074B254003E0281 /* UIImageView+Extensions.swift in Sources */,
+				AEC9FCFB2074B254003E0281 /* Locale+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA3BB26F2008B41B00E06F8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,6 +849,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AEC9FCF02074B22E003E0281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC9FCE92074B22E003E0281 /* AlertsAndPickers */;
+			targetProxy = AEC9FCEF2074B22E003E0281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		FA3BB28C2008B46500E06F8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -635,6 +869,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AEC9FCF42074B22E003E0281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XL743FKK28;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertsAndPickers/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appunite.AlertsAndPickers;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEC9FCF52074B22E003E0281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XL743FKK28;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlertsAndPickers/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appunite.AlertsAndPickers;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FA3BB2832008B41B00E06F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -747,6 +1039,7 @@
 		FA3BB2862008B41B00E06F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XL743FKK28;
@@ -762,6 +1055,7 @@
 		FA3BB2872008B41B00E06F8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XL743FKK28;
@@ -777,6 +1071,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AEC9FCF32074B22E003E0281 /* Build configuration list for PBXNativeTarget "AlertsAndPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9FCF42074B22E003E0281 /* Debug */,
+				AEC9FCF52074B22E003E0281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA3BB26E2008B41B00E06F8F /* Build configuration list for PBXProject "Alerts&Pickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

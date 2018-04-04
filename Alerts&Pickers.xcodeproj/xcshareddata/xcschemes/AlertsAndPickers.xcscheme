@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA3BB2722008B41B00E06F8F"
-               BuildableName = "Alerts&amp;Pickers.app"
-               BlueprintName = "Alerts&amp;Pickers"
+               BlueprintIdentifier = "AEC9FCE92074B22E003E0281"
+               BuildableName = "AlertsAndPickers.framework"
+               BlueprintName = "AlertsAndPickers"
                ReferencedContainer = "container:Alerts&amp;Pickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA3BB2722008B41B00E06F8F"
-            BuildableName = "Alerts&amp;Pickers.app"
-            BlueprintName = "Alerts&amp;Pickers"
-            ReferencedContainer = "container:Alerts&amp;Pickers.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA3BB2722008B41B00E06F8F"
-            BuildableName = "Alerts&amp;Pickers.app"
-            BlueprintName = "Alerts&amp;Pickers"
+            BlueprintIdentifier = "AEC9FCE92074B22E003E0281"
+            BuildableName = "AlertsAndPickers.framework"
+            BlueprintName = "AlertsAndPickers"
             ReferencedContainer = "container:Alerts&amp;Pickers.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA3BB2722008B41B00E06F8F"
-            BuildableName = "Alerts&amp;Pickers.app"
-            BlueprintName = "Alerts&amp;Pickers"
+            BlueprintIdentifier = "AEC9FCE92074B22E003E0281"
+            BuildableName = "AlertsAndPickers.framework"
+            BlueprintName = "AlertsAndPickers"
             ReferencedContainer = "container:Alerts&amp;Pickers.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
