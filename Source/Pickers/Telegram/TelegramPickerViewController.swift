@@ -103,7 +103,9 @@ final class TelegramPickerViewController: UIViewController {
         $0.showsVerticalScrollIndicator = false
         $0.showsHorizontalScrollIndicator = false
         $0.decelerationRate = UIScrollViewDecelerationRateFast
-        $0.contentInsetAdjustmentBehavior = .never
+        if #available(iOS 11.0, *) {
+            $0.contentInsetAdjustmentBehavior = .never
+        }
         $0.contentInset = UI.insets
         $0.backgroundColor = .clear
         $0.maskToBounds = false

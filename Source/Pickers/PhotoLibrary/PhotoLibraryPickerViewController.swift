@@ -97,7 +97,9 @@ final class PhotoLibraryPickerViewController: UIViewController {
         $0.showsVerticalScrollIndicator = false
         $0.showsHorizontalScrollIndicator = false
         $0.decelerationRate = UIScrollViewDecelerationRateFast
-        $0.contentInsetAdjustmentBehavior = .always
+        if #available(iOS 11.0, *) {
+            $0.contentInsetAdjustmentBehavior = .always
+        } 
         $0.bounces = true
         $0.backgroundColor = .clear
         $0.maskToBounds = false
